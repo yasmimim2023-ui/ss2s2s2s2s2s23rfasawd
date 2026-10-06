@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.security.CryptoTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:29.517Z" hostname="DESKTOP-LQ3FNI8" time="0.093">
+  <properties/>
+  <testcase name="encryptedRoundTripAndTamperingRejected" classname="br.com.thorlink.security.CryptoTest" time="0.033"/>
+  <testcase name="oversizedFramesRejectedBeforeAllocation" classname="br.com.thorlink.security.CryptoTest" time="0.002"/>
+  <testcase name="ephemeralAgreementAndMutualSignatures" classname="br.com.thorlink.security.CryptoTest" time="0.048"/>
+  <testcase name="hkdfIsDeterministicAndDirectionKeysDiffer" classname="br.com.thorlink.security.CryptoTest" time="0.005"/>
+  <testcase name="wrongDirectionKeyRejected" classname="br.com.thorlink.security.CryptoTest" time="0.002"/>
+  <testcase name="replayRejected" classname="br.com.thorlink.security.CryptoTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

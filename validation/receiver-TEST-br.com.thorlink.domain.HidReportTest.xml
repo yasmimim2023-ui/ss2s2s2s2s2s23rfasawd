@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.domain.HidReportTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:51.840Z" hostname="DESKTOP-LQ3FNI8" time="0.008">
+  <properties/>
+  <testcase name="shouldersStartSelectAndStickClicksRemainIndependent" classname="br.com.thorlink.domain.HidReportTest" time="0.003"/>
+  <testcase name="invalidAndOutOfRangeAxesDoNotCreateInvalidReports" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <testcase name="dpadHasAllEightDirectionsAndOppositeDirectionsCancel" classname="br.com.thorlink.domain.HidReportTest" time="0.003"/>
+  <testcase name="nativeSendingRequiresConsentVisibilityAndFreshUnlockedReceiverLease" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <testcase name="triggersEmitAnalogEndpointsAndDigitalButtons" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <testcase name="neutralReportHasNoHeldButtonsOrAxesAndUsesNullHat" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <testcase name="faceButtonsUseAndroidHidUsagesOneTwoFourFive" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <testcase name="descriptorDeclaresExactlyOneGamepadInputReportWithThirteenBytes" classname="br.com.thorlink.domain.HidReportTest" time="0.001"/>
+  <testcase name="bothSticksUseSignedSixteenBitAxesInCorrectOrder" classname="br.com.thorlink.domain.HidReportTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

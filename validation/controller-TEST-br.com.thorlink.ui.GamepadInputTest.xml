@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.ui.GamepadInputTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:31.135Z" hostname="DESKTOP-LQ3FNI8" time="11.108">
+  <properties/>
+  <testcase name="stickAndButtonCanBePressedTogetherAndReleasedIndependently" classname="br.com.thorlink.ui.GamepadInputTest" time="10.611"/>
+  <testcase name="quickButtonTapDeliversBothEdges" classname="br.com.thorlink.ui.GamepadInputTest" time="0.165"/>
+  <testcase name="auxiliaryStartButtonDeliversPressAndRelease" classname="br.com.thorlink.ui.GamepadInputTest" time="0.147"/>
+  <testcase name="blockedButtonExplainsTheBlockWithoutTransmitting" classname="br.com.thorlink.ui.GamepadInputTest" time="0.185"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+[Robolectric] WARN: Android SDK 37 requires Java 21 (have Java 17). Tests won't be run on SDK 37 unless explicitly requested.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

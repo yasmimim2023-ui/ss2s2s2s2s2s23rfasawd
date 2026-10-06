@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.ui.UiRenderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:42.355Z" hostname="DESKTOP-LQ3FNI8" time="7.427">
+  <properties/>
+  <testcase name="controlDiagnosticExplainsConsentAndShowsTheLastReceivedButton" classname="br.com.thorlink.ui.UiRenderTest" time="6.075"/>
+  <testcase name="consentStartsEmptyAndRequiresComparingCode" classname="br.com.thorlink.ui.UiRenderTest" time="0.372"/>
+  <testcase name="consoleRendersAndNavigationWorks" classname="br.com.thorlink.ui.UiRenderTest" time="0.678"/>
+  <testcase name="compactConsoleKeepsNavigationVisible" classname="br.com.thorlink.ui.UiRenderTest" time="0.159"/>
+  <testcase name="hidConsentIsOffAndExplainsForegroundAppScope" classname="br.com.thorlink.ui.UiRenderTest" time="0.142"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

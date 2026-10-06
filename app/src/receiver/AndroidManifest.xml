@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <application>
+        <service android:name="br.com.thorlink.services.SessionService" android:exported="false" android:foregroundServiceType="connectedDevice" />
+        <service android:name="br.com.thorlink.services.ScreenService" android:exported="false" android:foregroundServiceType="mediaProjection" />
+        <service android:name="br.com.thorlink.services.TouchService" android:exported="true" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:label="ThorLink • Controle autorizado">
+            <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility" />
+        </service>
+    </application>
+</manifest>

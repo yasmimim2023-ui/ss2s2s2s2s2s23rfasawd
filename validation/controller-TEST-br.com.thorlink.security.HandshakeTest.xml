@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.security.HandshakeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:29.614Z" hostname="DESKTOP-LQ3FNI8" time="0.055">
+  <properties/>
+  <testcase name="twoReceiversCannotFormASession" classname="br.com.thorlink.security.HandshakeTest" time="0.009"/>
+  <testcase name="oldAppVersionRequiresUpdatingBothApks" classname="br.com.thorlink.security.HandshakeTest" time="0.019"/>
+  <testcase name="bothRolesAuthenticateAndExchangeEncryptedMessages" classname="br.com.thorlink.security.HandshakeTest" time="0.023"/>
+  <testcase name="changedRevealDoesNotMatchCommitment" classname="br.com.thorlink.security.HandshakeTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

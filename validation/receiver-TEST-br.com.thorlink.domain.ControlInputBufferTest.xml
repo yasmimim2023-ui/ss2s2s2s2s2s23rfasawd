@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.thorlink.domain.ControlInputBufferTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-05T17:44:51.813Z" hostname="DESKTOP-LQ3FNI8" time="0.025">
+  <properties/>
+  <testcase name="overflowFailsClosedAndLeavesNoHeldButton" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.016"/>
+  <testcase name="overlappingButtonsKeepBothPressAndReleaseEdges" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.008"/>
+  <testcase name="oldAxisMovementsAreReplacedByTheNewestPosition" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.0"/>
+  <testcase name="resetDropsHeldButtonsAndPendingGestures" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.0"/>
+  <testcase name="quickTapSurvivesUntilTheSamplerCanSendIt" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.0"/>
+  <testcase name="expiredCommandsAreNeverReplayedAfterLag" classname="br.com.thorlink.domain.ControlInputBufferTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

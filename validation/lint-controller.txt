@@ -1,0 +1,275 @@
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:15: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 36
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdkVersion specifies that it has been tested with,
+   various compatibility modes kick in. This ensures that your application
+   continues to work, but it may look out of place. For example, if the
+   targetSdkVersion is less than 14, your app may get an option button in the
+   UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\AndroidManifest.xml:6: Warning: Attribute usesPermissionFlags is only used in API level 31 and higher (current min is 26) [UnusedAttribute]
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\res\xml\accessibility.xml:8: Warning: Attribute isAccessibilityTool is only used in API level 31 and higher (current min is 26) [UnusedAttribute]
+    android:isAccessibilityTool="false" />
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\gradle\wrapper\gradle-wrapper.properties:3: Warning: A newer version of Gradle than 8.13 is available: 8.14.5 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:67: Warning: A newer version of androidx.compose:compose-bom than 2025.08.01 is available: 2026.09.00 [GradleDependency]
+    implementation(platform("androidx.compose:compose-bom:2025.08.01"))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:68: Warning: A newer version of androidx.activity:activity-compose than 1.11.0 is available: 1.13.0 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.11.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:73: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.9.4 is available: 2.11.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:74: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.9.4 is available: 2.11.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:75: Warning: A newer version of androidx.core:core-ktx than 1.17.0 is available: 1.19.1 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.17.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\build.gradle.kts:76: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.10.2 is available: 1.11.0 [NewerVersionAvailable]
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\ui\Dialogs.kt:86: Warning: Reading Resources using LocalContext.current.resources [LocalContextResourcesRead from androidx.compose.ui]
+    val ratio=ctx.resources.displayMetrics.widthPixels.toFloat()/ctx.resources.displayMetrics.heightPixels.coerceAtLeast(1)
+              ~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\ui\Dialogs.kt:86: Warning: Reading Resources using LocalContext.current.resources [LocalContextResourcesRead from androidx.compose.ui]
+    val ratio=ctx.resources.displayMetrics.widthPixels.toFloat()/ctx.resources.displayMetrics.heightPixels.coerceAtLeast(1)
+                                                                 ~~~~~~~~~~~~~
+
+   Explanation for issues of type "LocalContextResourcesRead":
+   Changes to the Configuration object will not cause
+   LocalContext.current.resources reads to be invalidated, so calls to APIs
+   suchas Resources.getString() will not be updated when the Configuration
+   changes. Instead, use LocalResources.current to retrieve the Resources -
+   this will invalidate callers when the Configuration changes, to ensure that
+   these calls reflect the latest values.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.ui
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\AndroidManifest.xml:18: Warning: Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios. [DiscouragedApi]
+            android:screenOrientation="userLandscape">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\res\values\styles.xml:9: Warning: "comandos" is a common misspelling; did you mean "commandos"? [Typos]
+    <string name="touch_description">Gera somente toques e gestos no aplicativo escolhido por você durante uma sessão Bluetooth aprovada. Não lê textos, senhas, mensagens nem a árvore de conteúdo. Desconectar interrompe os comandos imediatamente.</string>
+                                                                                                                                                                                                                               ~~~~~~~~
+
+   Explanation for issues of type "Typos":
+   This check looks through the string definitions, and if it finds any words
+   that look like likely misspellings, they are flagged.
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\ui\Dialogs.kt:81: Hint: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var m by remember{mutableStateOf(initial)};var selected by remember{mutableStateOf(0)}
+                                                                        ~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\ui\Gamepad.kt:106: Hint: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var active by remember { mutableStateOf(0) }
+                             ~~~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\ui\ThorScreen.kt:34: Hint: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var page by rememberSaveableCompat { mutableStateOf(0) }
+                                         ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AutoboxingStateCreation":
+   Calling mutableStateOf<T>() when T is either backed by a primitive type on
+   the JVM or is a value class results in a state implementation that requires
+   all state values to be boxed. This usually causes an additional allocation
+   for each state write, and adds some additional work to auto-unbox values
+   when reading the value of the state. Instead, prefer to use a specialized
+   primitive state implementation for Int, Long, Float, and Double when the
+   state does not need to track null values and does not override the default
+   SnapshotMutationPolicy. See mutableIntStateOf(), mutableLongStateOf(),
+   mutableFloatStateOf(), and mutableDoubleStateOf() for more information.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\res\xml\accessibility.xml:1: Warning: The resource R.xml.accessibility appears to be unused [UnusedResources]
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\res\values\styles.xml:9: Warning: The resource R.string.touch_description appears to be unused [UnusedResources]
+    <string name="touch_description">Gera somente toques e gestos no aplicativo escolhido por você durante uma sessão Bluetooth aprovada. Não lê textos, senhas, mensagens nem a árvore de conteúdo. Desconectar interrompe os comandos imediatamente.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:17: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs.edit().putString("peers", JSONArray().apply { peers.forEach { put(JSONObject().put("address", it.address).put("name", it.name).put("fp", it.fingerprint)) } }.toString()).apply()
+        ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:20: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs.edit().putString("peers", JSONArray().apply { authorized().filterNot { it.address == address }.forEach {
+        ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:30: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs.edit().putString("history", JSONArray().apply { entries.forEach { put(JSONObject().put("time", it.time).put("name", it.name).put("result", it.result)) } }.toString()).apply()
+        ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:32: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+    fun clearHistory() { prefs.edit().remove("history").apply() }
+                         ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:34: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+    fun controlMode(mode:ControlMode) { prefs.edit().putBoolean("nativeHid",mode==ControlMode.HID).apply() }
+                                        ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:37: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+    fun target(pkg: String, label: String) { prefs.edit().putString("target", pkg).putString("targetLabel", label).apply() }
+                                             ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\data\LocalStore.kt:42: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+    fun mapping(m: Mapping) { prefs.edit().putString("mapping", listOf(m.stickX,m.stickY,m.radius,m.aX,m.aY,m.bX,m.bY,m.xX,m.xY,m.yX,m.yY,m.rightX,m.rightY).joinToString(",")).apply() }
+                              ~~~~~~~~~~~~
+C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\app\src\main\java\br\com\thorlink\MainActivity.kt:95: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                    onAppSettings = { vm.repo.externalFlow = true; startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,android.net.Uri.parse("package:$packageName"))) },
+                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 24 warnings, 3 hints

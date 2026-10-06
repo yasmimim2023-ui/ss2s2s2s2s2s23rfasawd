@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.ThorLink" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#9568FF</item>
+        <item name="android:windowBackground">#17151B</item>
+    </style>
+    <string name="touch_description">Gera somente toques e gestos no aplicativo escolhido por você durante uma sessão Bluetooth aprovada. Não lê textos, senhas, mensagens nem a árvore de conteúdo. Desconectar interrompe os comandos imediatamente.</string>
+</resources>

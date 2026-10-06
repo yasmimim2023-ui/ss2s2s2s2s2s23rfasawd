@@ -1,0 +1,171 @@
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\package.xml. Probably the SDK is read-only
+Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\package.xml. Probably the SDK is read-only
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0
+Info: Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\package.xml. Probably the SDK is read-only
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\cmake\3.22.1
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\cmdline-tools\16.0
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools
+Info: Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\package.xml. Probably the SDK is read-only
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34
+Info: Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\package.xml. Probably the SDK is read-only
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36
+Info: Exception while marshalling C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\package.xml. Probably the SDK is read-only
+Info: Parsing legacy package: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-37.0
+Info: SDK Manager found the following installed packages: build-tools;36.0.0 platform-tools platforms;android-34 platforms;android-36
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preControllerDebugBuild UP-TO-DATE
+> Task :app:mergeControllerDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateControllerDebugBuildConfig UP-TO-DATE
+> Task :app:checkControllerDebugAarMetadata UP-TO-DATE
+> Task :app:processControllerDebugNavigationResources UP-TO-DATE
+> Task :app:compileControllerDebugNavigationResources UP-TO-DATE
+> Task :app:generateControllerDebugResValues UP-TO-DATE
+> Task :app:mapControllerDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateControllerDebugResources UP-TO-DATE
+> Task :app:mergeControllerDebugResources UP-TO-DATE
+> Task :app:packageControllerDebugResources UP-TO-DATE
+> Task :app:parseControllerDebugLocalResources UP-TO-DATE
+> Task :app:createControllerDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksControllerDebug UP-TO-DATE
+> Task :app:processControllerDebugMainManifest UP-TO-DATE
+> Task :app:processControllerDebugManifest UP-TO-DATE
+> Task :app:processControllerDebugManifestForPackage UP-TO-DATE
+> Task :app:processControllerDebugResources UP-TO-DATE
+> Task :app:javaPreCompileControllerDebug UP-TO-DATE
+> Task :app:mergeControllerDebugShaders UP-TO-DATE
+> Task :app:compileControllerDebugShaders NO-SOURCE
+> Task :app:generateControllerDebugAssets UP-TO-DATE
+> Task :app:mergeControllerDebugAssets UP-TO-DATE
+> Task :app:compressControllerDebugAssets UP-TO-DATE
+> Task :app:desugarControllerDebugFileDependencies UP-TO-DATE
+> Task :app:checkControllerDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexControllerDebug UP-TO-DATE
+> Task :app:mergeLibDexControllerDebug UP-TO-DATE
+> Task :app:mergeControllerDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeControllerDebugNativeLibs UP-TO-DATE
+> Task :app:stripControllerDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningControllerDebug UP-TO-DATE
+> Task :app:writeControllerDebugAppMetadata UP-TO-DATE
+> Task :app:writeControllerDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preReceiverDebugBuild UP-TO-DATE
+> Task :app:mergeReceiverDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateReceiverDebugBuildConfig UP-TO-DATE
+> Task :app:checkReceiverDebugAarMetadata UP-TO-DATE
+> Task :app:processReceiverDebugNavigationResources UP-TO-DATE
+> Task :app:compileReceiverDebugNavigationResources UP-TO-DATE
+> Task :app:generateReceiverDebugResValues UP-TO-DATE
+> Task :app:mapReceiverDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateReceiverDebugResources UP-TO-DATE
+> Task :app:mergeReceiverDebugResources UP-TO-DATE
+> Task :app:packageReceiverDebugResources UP-TO-DATE
+> Task :app:parseReceiverDebugLocalResources UP-TO-DATE
+> Task :app:createReceiverDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksReceiverDebug UP-TO-DATE
+> Task :app:processReceiverDebugMainManifest UP-TO-DATE
+> Task :app:processReceiverDebugManifest UP-TO-DATE
+> Task :app:processReceiverDebugManifestForPackage UP-TO-DATE
+> Task :app:processReceiverDebugResources UP-TO-DATE
+> Task :app:javaPreCompileReceiverDebug UP-TO-DATE
+> Task :app:mergeReceiverDebugShaders UP-TO-DATE
+> Task :app:compileReceiverDebugShaders NO-SOURCE
+> Task :app:generateReceiverDebugAssets UP-TO-DATE
+> Task :app:mergeReceiverDebugAssets UP-TO-DATE
+> Task :app:compressReceiverDebugAssets UP-TO-DATE
+> Task :app:checkReceiverDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarReceiverDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexReceiverDebug UP-TO-DATE
+> Task :app:mergeLibDexReceiverDebug UP-TO-DATE
+> Task :app:mergeReceiverDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeReceiverDebugNativeLibs UP-TO-DATE
+> Task :app:stripReceiverDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningReceiverDebug UP-TO-DATE
+> Task :app:writeReceiverDebugAppMetadata UP-TO-DATE
+> Task :app:writeReceiverDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preControllerDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileControllerDebugUnitTest UP-TO-DATE
+> Task :app:packageControllerDebugUnitTestForUnitTest UP-TO-DATE
+> Task :app:processControllerDebugUnitTestManifest UP-TO-DATE
+> Task :app:generateControllerDebugUnitTestConfig UP-TO-DATE
+> Task :app:preReceiverDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReceiverDebugUnitTest UP-TO-DATE
+> Task :app:packageReceiverDebugUnitTestForUnitTest UP-TO-DATE
+> Task :app:processReceiverDebugUnitTestManifest UP-TO-DATE
+> Task :app:generateReceiverDebugUnitTestConfig UP-TO-DATE
+> Task :app:preControllerDebugAndroidTestBuild SKIPPED
+> Task :app:generateControllerDebugAndroidTestResValues UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preReceiverDebugAndroidTestBuild SKIPPED
+> Task :app:generateReceiverDebugAndroidTestResValues UP-TO-DATE
+> Task :app:compileControllerDebugKotlin
+> Task :app:compileReceiverDebugKotlin
+> Task :app:compileControllerDebugJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderControllerDebug
+> Task :app:mergeControllerDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processControllerDebugJavaRes UP-TO-DATE
+> Task :app:mergeControllerDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexControllerDebug
+> Task :app:compileReceiverDebugJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderReceiverDebug
+> Task :app:mergeReceiverDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processReceiverDebugJavaRes UP-TO-DATE
+> Task :app:mergeReceiverDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexReceiverDebug
+> Task :app:generateControllerDebugLintReportModel
+> Task :app:bundleControllerDebugClassesToRuntimeJar
+> Task :app:bundleControllerDebugClassesToCompileJar
+> Task :app:bundleReceiverDebugClassesToRuntimeJar
+> Task :app:bundleReceiverDebugClassesToCompileJar
+> Task :app:packageControllerDebug
+> Task :app:createControllerDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleControllerDebug
+> Task :app:compileControllerDebugUnitTestKotlin UP-TO-DATE
+> Task :app:compileControllerDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processControllerDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeControllerDebug
+> Task :app:testControllerDebugUnitTest
+> Task :app:compileReceiverDebugUnitTestKotlin UP-TO-DATE
+> Task :app:compileReceiverDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReceiverDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:packageReceiverDebug
+> Task :app:testReceiverDebugUnitTest
+> Task :app:generateControllerDebugAndroidTestLintModel
+> Task :app:generateControllerDebugUnitTestLintModel
+> Task :app:generateReceiverDebugAndroidTestLintModel
+> Task :app:generateReceiverDebugLintReportModel
+> Task :app:generateReceiverDebugUnitTestLintModel
+> Task :app:createReceiverDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleReceiverDebug
+> Task :app:lintAnalyzeControllerDebugAndroidTest
+> Task :app:lintAnalyzeReceiverDebugAndroidTest
+> Task :app:lintAnalyzeControllerDebugUnitTest
+> Task :app:lintReportControllerDebug UP-TO-DATE
+> Task :app:lintControllerDebug
+> Task :app:lintAnalyzeReceiverDebugUnitTest
+> Task :app:lintAnalyzeReceiverDebug
+> Task :app:lintReportReceiverDebug UP-TO-DATE
+> Task :app:lintReceiverDebug
+
+BUILD SUCCESSFUL in 53s
+115 actionable tasks: 28 executed, 87 up-to-date
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          8C86708403F6B01C688140E20155FC8E8CFEFDE4285EC8ADB7C877DED464B63F       C:\Users\ARTHUR\Documents\Codex\…
+SHA256          D069F432AB28AF752F3984BCF90A2FA157A2E9036BC0E3D59A315677A17093C4       C:\Users\ARTHUR\Documents\Codex\…
+APKs gerados em C:\Users\ARTHUR\Documents\Codex\2026-10-05\crie-um-aplicativo-android-completo-moderno\outputs\ThorLink\dist
+

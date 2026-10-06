@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-05",
+  "version": "1.1.0",
+  "tests": [
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.domain.ControlInputBufferTest",
+      "tests": 6,
+      "failures": 0
+    },
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.domain.HidReportTest",
+      "tests": 9,
+      "failures": 0
+    },
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.security.CryptoTest",
+      "tests": 6,
+      "failures": 0
+    },
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.security.HandshakeTest",
+      "tests": 4,
+      "failures": 0
+    },
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.ui.GamepadInputTest",
+      "tests": 4,
+      "failures": 0
+    },
+    {
+      "role": "controller",
+      "suite": "br.com.thorlink.ui.UiRenderTest",
+      "tests": 5,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.domain.ControlInputBufferTest",
+      "tests": 6,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.domain.HidReportTest",
+      "tests": 9,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.security.CryptoTest",
+      "tests": 6,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.security.HandshakeTest",
+      "tests": 4,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.ui.GamepadInputTest",
+      "tests": 4,
+      "failures": 0
+    },
+    {
+      "role": "receiver",
+      "suite": "br.com.thorlink.ui.UiRenderTest",
+      "tests": 5,
+      "failures": 0
+    }
+  ],
+  "lint_warnings": {
+    "controller": 24,
+    "receiver": 23
+  },
+  "apks": [
+    {
+      "file": "ThorLink-Controle.apk",
+      "bytes": 17916443,
+      "sha256": "8c86708403f6b01c688140e20155fc8e8cfefde4285ec8adb7c877ded464b63f"
+    },
+    {
+      "file": "ThorLink-Receptor.apk",
+      "bytes": 17916713,
+      "sha256": "d069f432ab28af752f3984bcf90a2fa157a2e9036bc0e3d59a315677a17093c4"
+    }
+  ],
+  "physical_devices_tested": false,
+  "hid_hardware_tested": false,
+  "gamehub_tested": false,
+  "latency_measured": false
+}

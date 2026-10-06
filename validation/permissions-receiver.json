@@ -1,0 +1,21 @@
+{
+  "package": "br.com.thorlink.receiver",
+  "permissions": [
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.BLUETOOTH_ADVERTISE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+    "br.com.thorlink.receiver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "services": [
+    "br.com.thorlink.services.SessionService",
+    "br.com.thorlink.services.ScreenService",
+    "br.com.thorlink.services.TouchService"
+  ]
+}
